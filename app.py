@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 data_frame = pd.read_csv("startup_cleaned.csv")
 st.set_page_config(layout='wide', page_title='Startup Analysis')
-st.title("Isha Mathkar-FS23AI016")
+st.title("Isha Mathkar=FS23AI016")
 # to convert 'date' column to datetime format and extract month and year
 data_frame['date']=pd.to_datetime(data_frame['date'],errors='coerce')
 data_frame['month']=data_frame['date'].dt.month
